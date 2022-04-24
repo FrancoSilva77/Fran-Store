@@ -71,3 +71,36 @@ img {
     text-align: left;
   }
 }
+
+.navegacion {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .navegacion {
+    flex-direction: row;
+  }
+}
+
+.navegacion__link {
+  color: var(--blanco);
+  text-decoration: none;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navegacion__link:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .navegacion__link {
+    font-size: 2.4rem;
+  }
+}
+
+
