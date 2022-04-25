@@ -205,3 +205,20 @@ img {
   background-color: var(--primary);
 }
 
+.footer {
+  margin-top: 2rem;
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 1.8rem;
+  color: var(--primary);
+  border-top: 2px solid var(--secundary);
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    font-size: 2.2rem;
+  }
+}
+
+
