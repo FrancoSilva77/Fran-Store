@@ -73,6 +73,30 @@ img {
   }
 }
 
+.carrito {
+  width: 5rem;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .carrito {
+    margin-right: 2rem;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .carrito {
+    margin-right: -20rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .carrito {
+    margin-right: -50rem;
+  }
+}
+
 .navegacion {
   display: flex;
   flex-direction: column;
